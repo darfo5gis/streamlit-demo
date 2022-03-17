@@ -18,7 +18,7 @@ def app():
     )
 
     gdf = gpd.read_file(municities)
-    m.add_gdf(gdf, layer_name='Municities', config=m_config)
+    m.add_gdf(gdf, layer_name='Municities')
     #m.save_config(m_config.json)
     
     m.to_streamlit(height=900)
