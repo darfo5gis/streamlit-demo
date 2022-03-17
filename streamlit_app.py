@@ -11,6 +11,7 @@ apps = {
     "home": {"title": "Home", "icon": "house"},
     "heatmap": {"title": "Heatmap", "icon": "map"},
     "upload": {"title": "Upload", "icon": "cloud-upload"},
+    "vector": {"title": "Vector", "icon": "bounding-box"},
 }
 
 titles = [app["title"] for app in apps.values()]
@@ -35,7 +36,7 @@ with st.sidebar:
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This web [app](https://share.streamlit.io/giswqs/streamlit-template) is maintained by [Qiusheng Wu](https://wetlands.io). You can follow me on social media:
+        This web [app](https://share.streamlit.io/darfo5gis/streamlit-demo) is created using a template made by [Qiusheng Wu](https://wetlands.io). You can follow him on social media:
             [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/c/QiushengWu) | [LinkedIn](https://www.linkedin.com/in/qiushengwu).
         
         Source code: <https://github.com/giswqs/streamlit-template>

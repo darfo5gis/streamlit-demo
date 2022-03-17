@@ -1,0 +1,57 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.2-Bia?owie?a">
+  <identifier>phl_admbnda_adm3_psa_namria_20200529</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>PHILIPPINES: Admin Level 3 Boundaries</title>
+  <abstract>This dataset contains the indicative boundaries of the municipalities/cities as observed at the end of June 2016 as per the Philippine Geographic Standard Code (PSGC) dataset. It has been generated on the basis of the layer created by the Philippine Statistics Authority (PSA) in the context of the 2015 population census.
+
+This dataset has been prepared for the purpose of Disaster Risk Reduction and Management (DRRM) in the Philippines.
+
+To facilitate data compatibility among sources, the original PSGC code has been modified by adding a "PH" in the attribute table of the GIS layer.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Municipalities/Cities</keyword>
+    <keyword>Provinces</keyword>
+    <keyword>Regions</keyword>
+    <keyword>Philippines</keyword>
+    <keyword>boundaries</keyword>
+  </keywords>
+  <contact>
+    <name>Amador A. Trazo</name>
+    <organization>Philippine Statistics Authority (PSA)/• IT-GIS (SOID), </organization>
+    <position>Head, Mapping Group</position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <history>Thanks to the support of UN OCHA, the SIIEM project, PSA, NAMRIA, DOST/NOAH and DSWD, the original layer has been cleaned and adjusted to match the data specification set by the NDRRMC Information Management Technical Working Group (IM-TWG) as well as NAMRIA's 1:250'000 indicative. The layer was downloaded as a shapefile by ITOS from HDX. It was then analyzed by ITOS for errors. Those errors were corrected and then the layer was sent back to UNOCHA as a feature class within a file geodatabase. The following errors were found and fixed by ITOS: 1. Created and populated a reference name field. 2. Created and populated Admin0 name and p-code fields. 3. Names converted from ALL CAPS to Proper Case 4. The IMO has instructed ITOS to seperate names in parentheses from the non-parenthetical names. In Admin3, the names have been placed in the AltName fields 5. Donut holes for lakes that are not portions of boundaries have been removed 6. Fixed 40 overlap errors and 4 gap errors 7. Fixed 95 multipart sliver errors 8. The small multipart portion of admin3 "Burgos" was removed and merged with the neighboring admin3 "Bangui" 2020 Update: As instructed by UNOCHA, Admin3 units in Admin1 "Negros Island Region" have had their attribution altered: -Units with Admin2 p-code portion "PH1845" have been changed to "PH0645". The Admin1 p-codes were changed to "PH060000000" and their Admin1 name changed to “Region VI”. -Units with Admin2 p-code portion "PH1846" have been changed to "PH0746". The Admin1 p-codes were changed to "PH070000000" and their Admin1 name changed to “Region VII” </history>
+  <fees></fees>
+  <constraints type="Limitations of use">Restricted to NDRRMC IM-TWG Member agencies</constraints>
+  <rights>Acknowledge PSA and NAMRIA as the source</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" maxz="0" crs="EPSG:4326" minz="0" maxy="21.12188499999999891" miny="4.58729399999999998" minx="114.27789199999999425" maxx="126.60496600000000456"/>
+    <temporal>
+      <period>
+        <start>2020-05-28T08:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
