@@ -15,6 +15,7 @@ def app():
     )
     m.config = 'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/m.config'
     gdf = gpd.read_file(municities)
-    m.add_gdf(gdf, layer_name='Municities', config=m.config)
+    m.add_gdf(gdf, layer_name='Municities')
+    m.save_config(m.config)
     
     m.to_streamlit(height=900)
