@@ -13,9 +13,12 @@ def app():
     municities = (
         'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/r5_municities_camsur.json'
     )
-    m_config = 'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/m.config'
+    m_config = (
+        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/m_config.json'
+    )
+
     gdf = gpd.read_file(municities)
-    m.add_gdf(gdf, layer_name='Municities')
+    m.add_gdf(gdf, layer_name='Municities', config=m_config)
     #m.save_config(m_config.json)
     
     m.to_streamlit(height=900)
