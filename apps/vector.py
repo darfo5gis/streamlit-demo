@@ -12,4 +12,4 @@ def app():
     #m.add_geojson(in_bounds, layer_name='Camarines Sur Municities')
     
 
-    m.to_streamlit(height=700)
+    m.to_streamlit(height=max)
