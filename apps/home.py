@@ -16,4 +16,6 @@ def app():
 
     m = leafmap.Map(locate_control=True)
     m.add_basemap("ROADMAP")
+    m.add_basemap("HYBRID")
+    m.add_basemap("Esri.NatGeoWorldMap")
     m.to_streamlit(height=700)
