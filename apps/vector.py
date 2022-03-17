@@ -1,5 +1,5 @@
 import streamlit as st
-import leafmap.deck as leafmap
+import leafmap.kepler as leafmap
 import geopandas as gpd
 
 
