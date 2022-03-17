@@ -11,4 +11,4 @@ def app():
     in_geojson = 'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/r5_municities_camsur.json'
     m.add_geojson(in_geojson, layer_name="Camarines Sur Municities Boundaries")
     
-    m.to_streamlit(height=700)
+    m.to_streamlit(height=max)
