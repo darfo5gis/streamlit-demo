@@ -24,6 +24,6 @@ def app():
     #    }
     #}
     gdf = gpd.read_file(municities)
-    m.add_gdf(gdf, layer_name='Municities')
+    m.add_gdf(gdf, layer_name='Municities', config='https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/m.config')
     
     m.to_streamlit(height=900)
