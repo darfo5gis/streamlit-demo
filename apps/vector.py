@@ -24,6 +24,6 @@ def app():
     #    }
     #}
     gdf = gpd.read_file(municities)
-    m.add_gdf(gdf, layer_name='Municities', config=config)
+    m.add_gdf(gdf, layer_name='Municities')
     
     m.to_streamlit(height=900)
