@@ -14,7 +14,7 @@ def app():
     """
     )
 
-    m = leafmap.Map(locate_control=True)
+    m = leafmap.Map(locate_control=True, center=[13.25, 124.15], zoom=8)
     m.add_basemap("ROADMAP")
     m.add_basemap("HYBRID")
     m.add_basemap("Esri.NatGeoWorldMap")
