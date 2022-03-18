@@ -14,10 +14,10 @@ def app():
         'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/r5_municities_camsur.json'
     )
     ai = (
-        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/ai.geojson'
+        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/ai.geojson'
     )
     bp2_benes = (
-        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/bp2benes.geojson'
+        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/bp2benes.geojson'
     )
 
     gdf = gpd.read_file(municities)
