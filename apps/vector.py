@@ -19,7 +19,7 @@ def app():
     bp2_benes = (
         'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/bp2benes.geojson'
     )
-    config= = (
+    config = (
         'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/m_config.json'
     )
 
@@ -29,5 +29,5 @@ def app():
     m.add_gdf(gdf, layer_name='Municities')
     m.add_gdf(gdf1, layer_name='AI case')
     m.add_gdf(gdf2, layer_name='BP2 Livelihood Assistance beneficiaries')
-    #m.load_config(config)
+    m.load_config(config)
     m.to_streamlit(height=900, width=900, responsive=True, scrolling=True)
