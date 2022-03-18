@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "bp2benes",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 2, "barangay": "Pararao", "municipality": "Balatan" }, "geometry": { "type": "Point", "coordinates": [ 123.222927, 13.337405, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "barangay": "Pararao", "municipality": "Balatan" }, "geometry": { "type": "Point", "coordinates": [ 123.222628, 13.337692, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 15, "barangay": "La Opinion", "municipality": "Nabua" }, "geometry": { "type": "Point", "coordinates": [ 123.358815, 13.390147, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "barangay": "Mataoroc", "municipality": "Minalabac" }, "geometry": { "type": "Point", "coordinates": [ 123.244817, 13.5364, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 13, "barangay": "Tariric", "municipality": "Minalabac" }, "geometry": { "type": "Point", "coordinates": [ 123.217977, 13.565062, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "barangay": "San Isidro", "municipality": "Bula" }, "geometry": { "type": "Point", "coordinates": [ 123.265236, 13.514516, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "barangay": "Sagrada Familia", "municipality": "Bula" }, "geometry": { "type": "Point", "coordinates": [ 123.277263, 13.470606, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "barangay": "San Agustin", "municipality": "Bula" }, "geometry": { "type": "Point", "coordinates": [ 123.238867, 13.499833, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 1, "barangay": "San Juan", "municipality": "Baao" }, "geometry": { "type": "Point", "coordinates": [ 123.386678, 13.454796, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 19, "barangay": "San Agustin", "municipality": "Pili" }, "geometry": { "type": "Point", "coordinates": [ 123.267662, 13.555025, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 18, "barangay": "May-Ogob", "municipality": "Ocampo" }, "geometry": { "type": "Point", "coordinates": [ 123.42248, 13.548425, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "barangay": "Bigaas", "municipality": "Calabanga" }, "geometry": { "type": "Point", "coordinates": [ 123.221002, 13.696064, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "barangay": "Paolbo", "municipality": "Calabanga" }, "geometry": { "type": "Point", "coordinates": [ 123.23799, 13.713954, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 21, "barangay": "Calagbangan", "municipality": "Sipocot" }, "geometry": { "type": "Point", "coordinates": [ 122.972063, 13.83781, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "barangay": "San Benito", "municipality": "Goa" }, "geometry": { "type": "Point", "coordinates": [ 123.491723, 13.701044, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 17, "barangay": "Carolina", "municipality": "Naga" }, "geometry": { "type": "Point", "coordinates": [ 123.278948, 13.649123, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "barangay": "Mambulo Nuevo", "municipality": "Libmanan" }, "geometry": { "type": "Point", "coordinates": [ 123.036257, 13.620996, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 20, "barangay": "Del Pilar", "municipality": "San Fernando" }, "geometry": { "type": "Point", "coordinates": [ 123.153135, 13.573829, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 14, "barangay": "Sagrada", "municipality": "Minalabac" }, "geometry": { "type": "Point", "coordinates": [ 123.238432, 13.515405, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 16, "barangay": "Malawag", "municipality": "Nabua" }, "geometry": { "type": "Point", "coordinates": [ 123.3117156, 13.3698559, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 10, "barangay": "La Purisima", "municipality": "Goa" }, "geometry": { "type": "Point", "coordinates": [ 123.490839, 13.699979, 0.0 ] } }
+]
+}
