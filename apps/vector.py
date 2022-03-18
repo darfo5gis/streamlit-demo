@@ -13,12 +13,18 @@ def app():
     municities = (
         'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/data/vector/r5_municities_camsur.json'
     )
-    m_config = (
-        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/m_config.json'
+    ai = (
+        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/ai.geojson'
+    )
+    bp2_benes = (
+        'https://raw.githubusercontent.com/darfo5gis/streamlit-demo/master/config/vector/bp2benes.geojson'
     )
 
     gdf = gpd.read_file(municities)
+    gdf1 = gpd.read_file(ai)
+    gdf2 = gpd.read_file(bp2_benes)
     m.add_gdf(gdf, layer_name='Municities')
-    #m.save_config(m_config.json)
+    m.add_gdf(gdf1, layer_name='AI case')
+    m.add_gdf(gdf2, layer_name='BP2 Livelihood Assistance beneficiaries')
     
     m.to_streamlit(height=900)
