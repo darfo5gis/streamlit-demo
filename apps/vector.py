@@ -6,7 +6,7 @@ import geopandas as gpd
 
 def app():
 
-    st.title("Vector")
+    st.title("Avian Influenza")
 
     m= leafmap.Map(center=[13.5, 123.15], zoom=8)
     
