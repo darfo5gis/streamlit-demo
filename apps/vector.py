@@ -29,5 +29,5 @@ def app():
     m.add_gdf(gdf, layer_name='Municities')
     m.add_gdf(gdf1, layer_name='AI case')
     m.add_gdf(gdf2, layer_name='BP2 Livelihood Assistance beneficiaries')
-    m.load_config()
+    m.load_config(config)
     m.to_streamlit(height=900, width=900, responsive=True, scrolling=True)
